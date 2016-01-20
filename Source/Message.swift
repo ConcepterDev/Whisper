@@ -1,6 +1,6 @@
 import UIKit
 
-public struct Message {
+public struct WMessage {
 
   public var title: String
   public var textColor: UIColor
