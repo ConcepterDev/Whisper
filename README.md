@@ -43,7 +43,7 @@ The usage of the component is so simple, you just create a message in the case o
 ##### For a Whisper:
 
 ```swift
-let message = Message(title: "Enter your message here.", backgroundColor: UIColor.redColor())
+let message = WMessage(title: "Enter your message here.", backgroundColor: UIColor.redColor())
 Whisper(message, to: navigationController, action: .Present)
 ```
 
@@ -94,7 +94,7 @@ In the future the idea is to keep improving and add some features:
 
 ## Contribute
 
-We would love you to contribute to **Whisper**, check the [CONTRIBUTING](https://github.com/hyperoslo/Whisper/blob/master/CONTRIBUTING.md) file for more info.
+We would love for you to contribute to **Whisper**, check the [CONTRIBUTING](https://github.com/hyperoslo/Whisper/blob/master/CONTRIBUTING.md) file for more info.
 
 ## License
 
